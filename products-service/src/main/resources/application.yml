@@ -1,0 +1,11 @@
+server:
+  port: 8081
+
+spring:
+  application:
+    name: products-service
+  data:
+    mongodb:
+      host: api-database
+      port: 27017
+      database: test
